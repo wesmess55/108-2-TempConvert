@@ -1,0 +1,19 @@
+<h4>Temperature Converter!</h4>
+
+<div class="first">
+  <label>Fahrenheit</label>
+  <input type="number"[(ngModel)]="fahrenheit"(ngModelChange)="convertFromF()">
+
+
+</div>
+
+
+<div class="second">
+  <label>Celsius</label>
+  <input type="number"[(ngModel)]= "celsius"(ngModelChange)="convertFromC()">
+</div>
+<div class="third">
+  <Label>Kelvin</Label>
+  <input type="number"[(ngModel)]= "kelvin"(ngModelChange)="convertFromK()">
+
+</div>
